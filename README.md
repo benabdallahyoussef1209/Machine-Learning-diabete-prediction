@@ -28,7 +28,7 @@ Le modèle compare les prédictions aux résultats réels pour donner un score d
 Précision Entraînement : training_data_accuracy
 Précision Test : test_data_accuracy
 ## 🧪 Test avec de nouvelles données
-Le script inclut un système de test manuel. Il suffit de modifier le tuple input_data pour tester un nouveau profil patient :
-
+Le script inclut un système de test manuel. Il suffit de modifier le tuple `input_data` pour tester un nouveau profil patient :
+```python
 input_data = (5, 166, 72, 19, 175, 25.8, 0.587, 51)
 # Résultat -> 'The person is diabetic'
